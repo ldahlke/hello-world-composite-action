@@ -3,6 +3,7 @@ echo
 env
 pwd
 cd $(RUNNER_WORKSPACE)
+cd work
 pwd
 ls -la
 git clone $(GITHUB_SERVER_URL)/ldahlke/schulcloud-server
